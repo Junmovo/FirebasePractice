@@ -41,7 +41,7 @@ export default function Home() {
       <h1>파이어베이스</h1>
       <input type="text" id="writer" onChange={onChangeValue} />
       <input type="text" id="contents" onChange={onChangeValue} />
-      <button onClick={onClickFirebase}></button>
+      <button onClick={onClickFirebase}>테스트</button>
     </>
   );
 }
